@@ -1,4 +1,4 @@
-.page .theme-dark {
+:root.theme-dark {
   --accent-clr: #ff0070;
   --accent-clr-with-background: #000028;
   --accent-heading-clr: #db00ff;

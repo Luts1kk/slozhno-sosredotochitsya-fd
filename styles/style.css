@@ -2,6 +2,7 @@
 
 .page {
   background-color: var(--accent-background-page, #000028);
+  background-attachment: fixed;
   font-family: var(--main-font, 'IBM Plex mono');
   font-weight: bold;
   letter-spacing: -0.17px;
@@ -168,13 +169,6 @@
   }
 }
 
-@media (min-width: 1024px) {
-  .decoration {
-    
-  }
-}
-
-
 .decorated-zone {
   position: relative;
 }
@@ -205,12 +199,6 @@
   .decorated-zone::after {
     transform: translateX(10px);
     margin-bottom: 10px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .decorated-zone::after {
-
   }
 }
 
@@ -246,16 +234,31 @@
 }
 
 @media (min-width: 768px) {
-  .section__cause {
-    padding-top: 22px;
+  .section__cause_why {
+    padding-left: 13px;
   }
 }
 
+@media (min-width: 768px){
+  .section__cause_what {
+    padding-bottom: 9px;
+  }
+}
 
 @media (min-width: 768px) {
   .section__cause_how {
-    padding-left: 10px;
+    padding-left: 13px;
     padding-bottom: 3px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section__cause_why {
+    padding-left: 6px;
+  }
+
+  .section__cause_how {
+    padding-left: 6px;
   }
 }
 
@@ -400,7 +403,7 @@
   .section__img_header {
     grid-area: section__img_header;
     grid-template-rows: auto;
-    
+    margin-top: -3px;
   }
 
   .section__img_foto-sunset {
@@ -429,15 +432,8 @@
     object-fit: cover; 
     display: block;
   }
+}
   
-}
-
-@media (min-width: 1024px) {
-  .section__img {
-    
-  }
-}
-
 .footer {
   min-height: 668px;
   display: flex;
