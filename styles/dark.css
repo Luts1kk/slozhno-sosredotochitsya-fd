@@ -1,11 +1,13 @@
 :root.theme-dark {
-  --accent-clr: #ff0070;
-  --accent-clr-with-background: #000028;
-  --accent-heading-clr: #db00ff;
-  --text-clr: #f1b2ce;
-  --button-hover-clr: #ff007066;
-  --heading-clr: #ff0070;
-  --decorative-bracket-clr: #ff0070;
-  --decoration-clr: #ff0070;
+  --accent-color: #ff0070;
+  --accent-color-with-background: #000028;
+  --accent-heading-color: #db00ff;
+  --accent-color-menu: #ff0070;
+  --accent-decor-color:#ff0070;
+  --text-color: #f1b2ce;
+  --button-hover-color: #ff007066;
+  --heading-color: #ff0070;
+  --decorative-bracket-color: #ff0070;
+  --decoration-color: #ff0070;
   --cover-image: url(../images/cover-image-dark.png);
 }
