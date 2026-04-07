@@ -209,12 +209,6 @@
   }
 }
 
-@media (min-width: 1024px) {
-  .decorated-zone::before {
-   
-  }
-}
-
 .section__why {
   padding: 40px 10px 50px;
 }
@@ -239,7 +233,7 @@
   }
 }
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
   .section__cause_what {
     padding-bottom: 9px;
   }
