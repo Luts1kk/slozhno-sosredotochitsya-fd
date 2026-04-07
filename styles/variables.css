@@ -1,4 +1,11 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+  --accent-clr: #ff0070;
+  --accent-clr-head: #ff0070;
+  --accent-background-page: #000028;
+  --accent-clr-with-background: #000028;
+  --accent-heading-clr: #db00ff;
+  --text-clr: #f1b2ce;
+  --decoration-clr: #ff0070;
+  --cover-image: url(../images/cover-image-dark.png);
+  --main-font: 'IBM Plex mono';
+}
