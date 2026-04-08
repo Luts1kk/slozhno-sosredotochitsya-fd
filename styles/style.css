@@ -1,20 +1,19 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-  background-color: var(--accent-background-page, #000028);
+  background-image: var(--cover-image, url(../images/cover-image-dark.png));
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
   background-attachment: fixed;
+  height: 100vh;
   font-family: var(--font-family, "IBM Plex mono");
   font-weight: bold;
   line-height: 23.4px;
 }
 
 .header {
-  background-image: var(--cover-image, url(../images/cover-image-dark.png));
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: cover;
   min-height: 668px;
-  height: 100vh; 
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr min-content 1fr;
@@ -76,7 +75,7 @@
 
 @media (min-width: 768px) {
   .header__theme-menu-list {
-    padding-top: 170px;
+    padding-top: 172px;
   }
 }
 
@@ -163,8 +162,8 @@
 
 @media (min-width: 768px) {
   .decoration {
-    padding-right: 30px;
-    padding-top: 20px;
+    right: 30px;
+    top: 20px;
   }
 }
 
@@ -196,15 +195,15 @@
 
 @media (min-width: 768px) {
   .decorated-zone::after {
-    transform: translateX(10px);
-    margin-bottom: 10px;
+    left: 20px;
+    bottom: 20px;
   }
 }
 
 @media (min-width: 768px) {
   .decorated-zone::before {
-   transform: translateX(-10px);
-   margin-top: 10px;
+   right: 20px;
+   top: 20px;
   }
 }
 
@@ -228,7 +227,7 @@
 
 @media (min-width: 768px) {
   .section__cause_why {
-    padding-left: 10px;
+    padding-left: 11px;
   }
 }
 
@@ -358,9 +357,15 @@
 
 @media (min-width: 768px) {
   .section__how {
-    padding: 0px 20px 80px;
+    padding: 5px 20px 80px;
     display: grid;
     grid-template-columns: 1fr 2fr;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section__how {
+    padding: 0px 20px 80px;
   }
 }
 
@@ -429,12 +434,6 @@
     height: 100%;
     object-fit: cover; 
     display: block;
-  }
-}
-
-@media (min-width:1024px) {
-  .section__img_header {
-    padding-bottom: 5px;
   }
 }
   
