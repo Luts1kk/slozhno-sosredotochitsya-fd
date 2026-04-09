@@ -1,7 +1,7 @@
   :root.theme-light {
     --cover-image: url(../images/cover-image-light.png);
     --accent-color: #ff8dcb;
-    --accent-color-menu: #353430;
+    --accent-color-menu: #32312D66;
     --accent-color-head: #353430;
     --accent-background-page: #fff1f7;
     --accent-color-with-background: #353430;
@@ -12,7 +12,7 @@
   }
 
   @media (prefers-color-scheme: light) {
-    :root.them-light {
+    :root {
     --cover-image: url(../images/cover-image-light.png);
     --accent-color: #ff8dcb;
     --accent-color-head: #353430;

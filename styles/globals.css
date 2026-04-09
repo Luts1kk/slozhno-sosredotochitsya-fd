@@ -40,7 +40,3 @@ a {
   font-size: inherit;
   line-height: inherit;
 }
-
-main, footer {
-   background-color: var(--accent-background-page, #000028);
-}
