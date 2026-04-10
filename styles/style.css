@@ -69,8 +69,8 @@
 }
 
 .header__theme-menu-button:focus-visible {
-  text-decoration: underline;
-  text-decoration-color: var(--accent-color-menu, #ff0070);
+  outline: none;
+  border-bottom: 1px solid var(--accent-color-head, #ff0070);
 }
 
 .header__theme-menu-button_active {
@@ -286,7 +286,7 @@
 
 .link__text {
   text-decoration: none;
-  text-shadow: 2px 2px 0px var(--accent-color, #ff0070);
+  text-shadow: 1px 1px 0px var(--accent-color, #ff0070);
   cursor: pointer;
 }
 
@@ -358,7 +358,7 @@
 
 @media (min-width: 1024px) {
   .section__how {
-    padding-top: 0px;
+    padding-top: 8px;
   }
 }
 
