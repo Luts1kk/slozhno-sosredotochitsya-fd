@@ -9,7 +9,6 @@
   font-family: var(--font-family, "IBM Plex mono", sans-serif);
   font-weight: bold;
   line-height: 23.4px;
-  letter-spacing: -0.17px;
 }
 
 .header {
@@ -227,6 +226,7 @@
   .content__section {
     padding: 30px 10px 50px;
     display: grid;
+    letter-spacing: -0.17px;
   }
 }
 
